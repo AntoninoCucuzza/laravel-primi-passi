@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['name' => 'Mario'],  ['lastname' => 'Rossi']);
+});
+
+Route::get('/about', function () {
+    return view('about', ['new' => 'questa e una pagina about us  se clicci sopra ritorni alla home ']);
 });

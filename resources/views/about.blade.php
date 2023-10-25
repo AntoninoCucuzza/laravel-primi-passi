@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>laravel-primi-passi</title>
+    <title>about us</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -21,12 +21,12 @@
         <nav>
             <ul>
                 <li>
-                    <a href="{{ url('/about') }}">about us </a>
+                    <a href="{{ url('/') }}">home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <h1>Hello World {{$name}} {{$lastname}}</h1>
+    <h1>{{$new}} </h1>
 </body>
 
 </html>
