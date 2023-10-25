@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about', ['new' => 'questa e una pagina about us  se clicci sopra ritorni alla home ']);
+    return view('about', ['new' => 'questa e una pagina about us se clicci sopra il tassto home ritorni alla home ']);
 });
